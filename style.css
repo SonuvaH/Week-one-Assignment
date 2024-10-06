@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+}
+header,
+body,
+footer {
+  background-color: rgb(4, 32, 36);
+}
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 40pt;
+  color: azure;
+}
+
+.One {
+  background-image: url("space\ 1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Two {
+  background-image: url("space\ 2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Three {
+  background-image: url("space 3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.top {
+  display: flex;
+  justify-items: center;
+}
+button {
+  background-color: aqua;
+}
